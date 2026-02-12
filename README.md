@@ -128,15 +128,26 @@ Reports included:
 
 ## 📁 Project Structure
 
+```bash
 retail-data-warehouse-analytics
 │
-├── 1_bronze_layer   # Raw data ingestion (staging tables & bulk load)
-├── 2_silver_layer   # Data cleansing and transformation
-├── 3_gold_layer     # Dimensional model (fact & dimension tables)
-├── 4_analytics      # Advanced SQL analysis and business insights
-├── reports          # Final reporting queries
-├── documents        # Architecture diagrams & data catalog
+├── 1_bronze_layer
+├── 2_silver_layer
+├── 3_gold_layer
+├── 4_analytics
+├── reports
+├── documents
 └── README.md
+```
+
+### Folder Details
+
+- **1_bronze_layer** → Raw data ingestion (staging & bulk load)
+- **2_silver_layer** → Data cleansing and transformation
+- **3_gold_layer** → Dimensional model (fact & dimension tables)
+- **4_analytics** → Advanced SQL analysis
+- **reports** → Final reporting queries
+- **documents** → Architecture diagrams & data catalog
 
 ---
 
